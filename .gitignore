@@ -1,0 +1,28 @@
+# Python
+venv/
+tts_venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Modeller (büyük dosyalar — ayrıca kopyalanır)
+/models/
+
+# Servis klasörleri (runtime verisi)
+/input/
+/processing/
+/output/
+/done/
+/error/
+/dead_letter/
+/logs/
+/tts_output/
+/failed/
+
+# Ortam değişkenleri
+.env
+*.env
+
+# Windows
+Thumbs.db
+Desktop.ini
