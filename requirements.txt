@@ -1,0 +1,36 @@
+# Ana bağımlılıklar
+faster-whisper==1.2.1
+TTS==0.22.0
+torch==2.11.0
+torchaudio==2.11.0
+watchdog==6.0.0
+psutil==7.2.2
+soundfile==0.13.1
+
+# ASR / Audio işleme
+ctranslate2==4.7.1
+librosa==0.11.0
+numpy==1.26.4
+scipy==1.17.1
+
+# Model indirme / Hub
+huggingface_hub==0.36.2
+transformers==4.46.3
+
+# TTS bağımlılıkları
+encodec==0.1.1
+trainer==0.0.36
+coqpit==0.0.17
+anyascii==0.3.3
+pysbd==0.3.4
+gruut==2.2.3
+Unidecode==1.4.0
+num2words==0.5.14
+spacy==3.8.14
+umap-learn==0.5.12
+pandas==1.5.3
+
+# Yardımcı
+requests==2.33.1
+tqdm==4.67.3
+PyYAML==6.0.3
